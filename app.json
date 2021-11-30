@@ -1,3 +1,18 @@
 {
-    "name": "cors-anywhere"
+  "name": "cors-anywhere",
+  "env": {
+    "CORSANYWHERE_REQUIRE_HEADER": {
+      "value": "origin,x-requested-with",
+      "required": false
+    },
+    "CORSANYWHERE_BLACKLIST": {
+      "required": false
+    },
+    "CORSANYWHERE_WHITELIST": {
+      "required": false
+    },
+    "CORSANYWHERE_RATELIMIT": {
+      "required": false
+    }
+  }
 }
